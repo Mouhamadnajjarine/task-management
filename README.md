@@ -9,7 +9,7 @@
 # we use this command to install our used library :
     pip install Flask SQLAlchemy psycopg2 python-dotenv flask_migrate flask_sqlalchemy
 
-# Run the following command to create the database tables:
+# create databse and name it "flask" and run the following command to create the database tables:
     flask db init
     flask db migrate
     flask db upgrade
@@ -18,5 +18,3 @@
     flask run
     
 By default, the application will be accessible at `http://localhost:5000/` in your web browser.
-
-# create databse and name it "flask"
