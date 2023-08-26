@@ -18,3 +18,5 @@
     flask run
     
 By default, the application will be accessible at `http://localhost:5000/` in your web browser.
+
+# create databse and name it "flask"
