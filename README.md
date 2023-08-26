@@ -17,4 +17,4 @@
 # Run the following command to start the Flask development server:
     flask run
     
-    By default, the application will be accessible at `http://localhost:5000/` in your web browser.
+By default, the application will be accessible at `http://localhost:5000/` in your web browser.
