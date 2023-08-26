@@ -1,13 +1,13 @@
 # task-management
 
 # this command is used to create the venv folder :
-  python -m venv venv
+    python -m venv venv
 
 # this command is used to run the project in the development mode :
-  source venv/bin/activate  # On Windows, use `venv\Scripts\activate'
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate'
 
 # we use this command to install our used library :
-  pip install Flask SQLAlchemy psycopg2 python-dotenv flask_migrate flask_sqlalchemy
+    pip install Flask SQLAlchemy psycopg2 python-dotenv flask_migrate flask_sqlalchemy
 
 # Run the following command to create the database tables:
     flask db init
