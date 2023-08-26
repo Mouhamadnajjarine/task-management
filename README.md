@@ -9,7 +9,7 @@
 # we use this command to install our used library :
     pip install Flask SQLAlchemy psycopg2 python-dotenv flask_migrate flask_sqlalchemy
 
-# create databse and name it "flask" and run the following command to create the database tables:
+# create databse and name it "flask" and run the following command to create the database tables (migration):
     flask db init
     flask db migrate
     flask db upgrade
